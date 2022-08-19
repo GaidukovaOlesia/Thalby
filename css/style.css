@@ -333,3 +333,121 @@ header .logo{
     text-align: center;
     color: #000000;
 }
+.width{
+    width: 338px;
+    margin-bottom: 162px;
+}
+.aqua{
+    display: block;
+    margin: auto;
+    background: #21F7EC;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
+}
+.thalby-unique h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.green{
+    display: block;
+    margin: auto;
+    background: #33D3BC;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
+}
+.blue{
+    display: block;
+    margin: auto;
+    background: #18A5C6;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
+}
+.orange{
+    display: block;
+    margin: auto;
+    background: #D38F62;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
+}
+.red{
+    display: block;
+    margin: auto;
+    background: #F94C43;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
+}
+.purple{
+    display: block;
+    margin: auto;
+    background: #D399FF;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
+}
+.fascinating{
+    background: #F0F0F0;
+    padding-bottom: 51px;
+}
+.fascinating img{
+    margin-bottom: 35px;
+    position: relative;
+    margin-top: -188px;
+}
+.fascinating h4{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: 34px;
+}
+.fascinating p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.fascinating a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: block;
+}
+.muller{
+    width: 289px;
+}
+.kovalevski{
+    width: 289px;
+}
+.Stoephasius{
+    width: 289px;
+}
+
