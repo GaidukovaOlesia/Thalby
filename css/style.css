@@ -81,7 +81,7 @@ header .logo{
     margin-bottom: 26px;
 }
 .main_banner a{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -102,9 +102,8 @@ header .logo{
 .people{
     background: rgba(204, 204, 204, 0.3);
     border-radius: 0px;
-    padding: 76px;
-    padding-bottom: 61px;
-
+    padding-top: 76px;
+    padding-bottom: 51px;
 }
 .people .for-image{
     max-width: 385px;
@@ -118,18 +117,219 @@ header .logo{
     max-width: 498px;
 }
 .people .description h2{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     color: #000000;
+    margin-bottom: 31px;
 }
 .people .description p{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.people .description a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.guides{
+    padding-top: 60px;
+    padding-bottom: 189px;
+}
+.text-align{
+    text-align: center;
+}
+.guides h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.guides p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+.desc{
+    margin-bottom: 47px;
+}
+.ebooks{
+    margin-bottom: 87px;
+}
+.sellers{
+    margin-bottom: 52px;
+}
+.guides h4{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.guides .for-image img{
+    margin-bottom: 27px;
+    display: block;
+}
+.guides .for-image p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.guides .for-image a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.culture{
+    padding-top: 76px;
+    padding-bottom: 51px;
+    background: rgba(204, 204, 204, 0.6);
+}
+.culture .description h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.culture .description p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.culture .description{
+    max-width: 532px;
+    margin-right: 50px;
+}
+.culture .description a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    display: block;
+}
+.culture .for-image{
+    max-width: 385px;
+}
+.culture .for-image img{
+    width: 100%;
+    display: block;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.power{
+    background: rgba(204, 204, 204, 0.3);
+    padding-bottom: 51px;
+    padding-top: 76px;
+}
+.power .for-image{
+    max-width: 385px;
+}
+.power .description img{
+    width: 100%;
+    display: block;
+}
+.power .for-image{
+    margin-right: 50px;
+}
+.power .description h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.power .description p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 39px;
+}
+.power .description a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.power .description{
+    max-width: 532px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.thalby-unique{
+    padding-top: 190px;
+    padding-bottom: 290px;
+}
+.thalby-unique .description h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 69px;
+}
+.thalby-unique .description h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
     color: #000000;
 }
