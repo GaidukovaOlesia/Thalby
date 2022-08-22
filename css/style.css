@@ -101,7 +101,7 @@ header .logo{
 }
 .people{
     background: rgba(204, 204, 204, 0.3);
-    border-radius: 0px;
+    border-radius: 0;
     padding-top: 76px;
     padding-bottom: 51px;
 }
@@ -450,4 +450,128 @@ header .logo{
 .Stoephasius{
     width: 289px;
 }
+.keepintouch{
+    padding-top: 78px;
+    padding-bottom: 88px;
+}
+.keep{
+    margin: auto;
+}
+.keepintouch h3{
+    margin-bottom: 9px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.keepintouch p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+
+}
+.work{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+
+}
+.form{
+    max-width: 366px;
+    margin: auto;
+}
+#first-name{
+    width: 153px;
+    margin-bottom: 18px;
+}
+#last-name{
+    width: 153px;
+    margin-bottom: 18px;
+}
+.email{
+    margin-bottom: 16px;
+    width: 100%;
+}
+.subscribe{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 7px 23px 10px;
+}
+.button{
+    width: 115px;
+    margin: auto;
+}
+footer{
+    background: #020202;
+    padding-top: 51px;
+    padding-bottom: 16px;
+}
+footer .logo{
+    margin-bottom: 25px;
+}
+.icon{
+    width: 129px;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+   text-decoration: none;
+}
+footer ul li:first-of-type{
+    margin-bottom: 35px;
+}
+footer ul li:nth-child(2){
+    margin-bottom: 12px;
+}
+footer ul li:nth-child(3){
+    margin-bottom: 12px;
+}
+footer ul li:nth-child(4){
+    margin-bottom: 12px;
+}
+footer ul li:last-of-type{
+    margin-bottom: 20px;
+}
+footer ul:first-of-type{
+    margin-right: 75px;
+}
+footer .img{
+    display: block;
+    margin: auto;
+}
+
 
