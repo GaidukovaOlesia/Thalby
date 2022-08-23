@@ -3,12 +3,146 @@
     padding: 0 15px;
 }
 }
-@media screen and (min-width: 767px){
+@media screen and (max-width: 835px){
+    header .logo{
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+    }
+    .main_banner img{
+        position: relative;
+        right: 0;
+    }
+    .guides .d-flex{
+        flex-direction: column;
+    }
+    .guides .for-image img{
+        margin: auto;
+    }
+    .guides .for-image img{
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .guides .ebooks{
+        margin-bottom: 37px;
+    }
+    .guides{
+        padding-bottom: 50px;
+    }
+    .fascinating .container{
+       width: 800px
+    }
+    .fascinating img{
+        width: 200px;
+    }
+    .muller{
+        width: 200px;
+    }
+    .kovalevski{
+        width: 200px;
+    }
+    .Stoephasius{
+        width: 200px;
+    }
+    .fascinating .kovalevski .work{
+        margin-bottom: 68px;
+    }
+    .thalby-unique{
+        padding-top: 50px;
+    }
+    .thalby-unique .description h4{
+        margin-bottom: -100px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    header .logo{
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+    }
     .people .d-flex{
         flex-direction: column;
     }
+    .people .description p{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .people .description h2{
+        margin-top: 20px;
+    }
+    .culture .d-flex{
+        flex-direction: column;
+    }
+    .culture .description p{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .culture .description a{
+        margin-bottom: 20px;
+    }
+    .power .d-flex{
+        flex-direction: column;
+    }
+    .power .description p{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .power .description h3{
+        margin-top: 20px;
+    }
+    .guides{
+        padding-bottom: 50px;
+    }
+    .guides .d-flex{
+        flex-direction: column;
+    }
+    .guides .for-image img{
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .guides .ebooks{
+        margin-bottom: 37px;
+    }
+
+    .main_banner img{
+        position: relative;
+        right: 0;
+    }
+    .muller{
+        width: 200px;
+    }
+    .kovalevski{
+        width: 200px;
+    }
+    .Stoephasius{
+        width: 200px;
+    }
+    .fascinating img{
+        width: 200px;
+    }
+    .fascinating .container{
+        width: 700px
+    }
+    .fascinating .kovalevski .work{
+        margin-bottom: 66px;
+    }
+    .fascinating .Stoephasius .work{
+        margin-bottom: 44px;
+    }
+    .thalby-unique{
+        padding-top: 50px;
+    }
+    .thalby-unique .description h4{
+        margin-bottom: -100px;
+    }
 }
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 428px) {
     nav{
         display: none;
     }
@@ -19,6 +153,6 @@
         top: 0;
     }
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 
 }
