@@ -169,6 +169,35 @@ header .logo{
     text-align: center;
     color: #000000;
 }
+.guides .owl-carousel .item{
+    max-width: 314px;
+    margin: auto;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -47px;
+    top: 35%;
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 50px;
+    color: black;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -47px;
+    top: 35%;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 50px;
+    color: black;
+}
+
 .desc{
     margin-bottom: 47px;
 }
@@ -525,6 +554,9 @@ footer{
     padding-top: 51px;
     padding-bottom: 16px;
 }
+.logo-footer{
+    max-width: 129px;
+}
 footer .logo{
     margin-bottom: 25px;
 }
@@ -543,7 +575,7 @@ footer .logo{
     margin-bottom: 50px;
 }
 .text{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

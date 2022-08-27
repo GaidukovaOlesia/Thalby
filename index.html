@@ -9,9 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+
+
+
 </head>
 <body>
 <header>
@@ -78,8 +82,11 @@
     <h2 class="sellers">
         Our best sellers
     </h2>
-    <div class="d-flex justify-between for-image">
-        <div>
+
+
+
+    <div class="d-flex justify-between for-image owl-carousel">
+        <div class="item">
             <img src="images/french-culture.jpg" alt="frculture">
             <h4>
                 Thalby Guide to<br> French Culture and<br> Heritage
@@ -89,7 +96,7 @@
             </p>
             <a href="#">Add to cart</a>
         </div>
-        <div>
+        <div class="item">
             <img src="images/french-people.jpg" alt="frpeople">
             <h4>
                 Thalby Guide to<br> French People and<br> Society
@@ -99,7 +106,37 @@
             </p>
             <a href="#">Add to cart</a>
         </div>
-        <div>
+        <div class="item">
+            <img src="images/german-culture.jpg" alt="grculture">
+            <h4>
+                Thalby Guide to<br> German Culture and<br> Heritage
+            </h4>
+            <p>
+                USD 6.99
+            </p>
+            <a href="#">Add to cart</a>
+        </div>
+        <div class="item">
+            <img src="images/french-culture.jpg" alt="frculture">
+            <h4>
+                Thalby Guide to<br> French Culture and<br> Heritage
+            </h4>
+            <p>
+                USD 6.99
+            </p>
+            <a href="#">Add to cart</a>
+        </div>
+        <div class="item">
+            <img src="images/french-people.jpg" alt="frpeople">
+            <h4>
+                Thalby Guide to<br> French People and<br> Society
+            </h4>
+            <p>
+                USD 6.99
+            </p>
+            <a href="#">Add to cart</a>
+        </div>
+        <div class="item">
             <img src="images/german-culture.jpg" alt="grculture">
             <h4>
                 Thalby Guide to<br> German Culture and<br> Heritage
@@ -244,7 +281,7 @@
                 </div>
             </div>
 
-            <div >
+            <div class="form-email" >
             <input type="email" name="email" placeholder="E-mail" class="email" >
             </div>
         </form>
@@ -259,7 +296,7 @@
 <footer>
 
 <div class=" container d-flex justify-between">
-<div>
+<div class="logo-footer">
     <img src="images/logo-footer.svg" alt="logo" class="logo">
 
     <ul class="d-flex justify-between icon">
@@ -315,5 +352,10 @@
 <img src="images/Thalby.svg" alt="title" class="img">
 
 </footer>
+
+<script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
