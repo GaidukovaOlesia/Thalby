@@ -195,20 +195,51 @@
         right: 0;
         top: 35%;
     }
-    .power .for-image img{
-        margin-left: 15px;
+
+    .people .for-image{
+        margin-right: 0;
+    }
+    .power .for-image{
+        margin-right: 0;
+    }
+    .people .description h2{
+      text-align: center;
+    }
+    .people .description a{
+        text-align: center;
+        display: block;
     }
     .people .description p{
         font-size: 20px;
         line-height: 30px;
+        text-align: center;
+        display: block;
+    }
+    .culture .description{
+        margin-right: 0;
+    }
+    .culture .description h2{
+        text-align: center;
     }
     .culture .description p{
+        text-align: center;
         font-size: 20px;
         line-height: 30px;
+    }
+    .culture .description a{
+        text-align: center;
+    }
+    .power .description h3{
+        text-align:center;
     }
     .power .description p{
         font-size: 20px;
         line-height: 30px;
+        text-align: center;
+    }
+    .power .description a{
+        text-align: center;
+        display: block;
     }
     .thalby-unique .d-flex{
     align-items: center;

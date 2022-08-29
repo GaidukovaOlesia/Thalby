@@ -189,6 +189,7 @@ header .logo{
     position: absolute;
     right: -47px;
     top: 35%;
+    transform: rotate(180deg)
 }
 .owl-nav .owl-next:before{
     font-family: "Font Awesome 6 Free";
@@ -196,6 +197,7 @@ header .logo{
     content: "\f053";
     font-size: 50px;
     color: black;
+    ;
 }
 
 .desc{
