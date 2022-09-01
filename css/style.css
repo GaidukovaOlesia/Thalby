@@ -607,5 +607,28 @@ footer .img{
     display: block;
     margin: auto;
 }
+.ui-widget.ui-widget-content{
+        position: absolute;
+        height: auto;
+        top: 15px!important;
+        left: 830px!important;
+}
+.ui-dialog .ui-dialog-title{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+.ui-dialog .ui-dialog-content{
+    min-height: 50px!important;
+}
+.ui-widget-header {
+    background: gainsboro!important;
+}
+.ui-corner-all{
+    border-radius: 5px!important;
 
-
+}
